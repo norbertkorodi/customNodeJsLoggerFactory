@@ -1,0 +1,25 @@
+{
+  "name": "l",
+  "version": "1.0.0",
+  "description": "Custom logger of a nodejs app using es6 class.",
+  "main": "Logger.js",
+  "repository": "",
+  "description": "Custom logger for nodejs",
+  "scripts": {
+	"start": "node Logger.js",
+    "monitor": "nodemon Logger.js",
+    "lint": "jshint --exclude-path=.gitignore .",
+    "test": "npm run lint"
+  },
+  "keywords": [logger, winston, log4js],
+  "author": "",
+  "license": "ISC",
+  "author": "Norbert Korodi",
+  "dependencies": {
+    "winston": "latest",
+	"log4js": "latest"
+  },
+  "engines": {
+    "node": ">=0.12.7"
+  }
+}
