@@ -1,5 +1,5 @@
 {
-  "name": "l",
+  "name": "norbilogger",
   "version": "1.0.0",
   "description": "Custom logger of a nodejs app using es6 class.",
   "main": "Logger.js",
@@ -11,7 +11,7 @@
     "lint": "jshint --exclude-path=.gitignore .",
     "test": "npm run lint"
   },
-  "keywords": [logger, winston, log4js],
+  "keywords": ["logger", "winston", "log4js", "norbi"],
   "author": "",
   "license": "ISC",
   "author": "Norbert Korodi",
