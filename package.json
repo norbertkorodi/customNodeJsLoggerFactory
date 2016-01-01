@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Custom logger of a nodejs app using es6 class.",
   "main": "Logger.js",
-  "repository": "",
-  "description": "Custom logger for nodejs",
+  "repository": "https://github.com/norbertkorodi/customNodeJsLoggerFactory.git",
   "scripts": {
 	"start": "node Logger.js",
     "monitor": "nodemon Logger.js",
@@ -12,7 +11,6 @@
     "test": "npm run lint"
   },
   "keywords": ["logger", "winston", "log4js", "norbi"],
-  "author": "",
   "license": "ISC",
   "author": "Norbert Korodi",
   "dependencies": {
